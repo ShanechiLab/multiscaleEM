@@ -17,7 +17,7 @@ This repository does not need any extra dependencies apart from the built-in MAT
 
 The main function is located at [EM_multiscale_unsupervised_function.m](https://github.com/SalarAbb/emrelease/blob/main/functions_main/EM_multiscale_unsupervised_function.m). To get familiar with how the algorithm works, there exists a demo script [demo.m](https://github.com/SalarAbb/emrelease/blob/main/example/demo.m) which generates a simulated time-series of multiscale spike-LFP activity from a state-space model, learns it with the multiscale EM algorithm and visualizes the learned eigenvalues compared to the true systems eigenvalues. To run on your data, you just need to prepare the lfp features time-series (Y) and spike time-series (N), and set some settings parameters of your interest. The detailed instructions could be found in the demo script and also inside functions.
 
-## Version compatibillity
+## Version compatibility
 
 The code has been tested on the following MATLAB and operating system versions.
 - MATLAB 2017a, Windows 10 Pro (version 1909)
