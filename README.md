@@ -3,7 +3,7 @@
 
 This repository contains the code for the multiscale expectation-maximization (EM) algorithm to extract latent states (and learn the multiscale state-space model) from the combined spiking activity (in form of binary point process Poisson observations) and field activity (in form of continuous linear Gaussian observations, e.g., local field potentials or LFP). 
 
-This algorithm is used for the paper "Multiscale low dimensional motor cortical state dynamics predict naturalistic reach-and-grasp behavior". The mathematical derivation of the algorithm could be found [here](https://ieeexplore.ieee.org/abstract/document/8698887).
+This algorithm is used for the paper "[Multiscale low dimensional motor cortical state dynamics predict naturalistic reach-and-grasp behavior](https://www.nature.com/articles/s41467-020-20197-x)". The mathematical derivation of the algorithm could be found [here](https://ieeexplore.ieee.org/abstract/document/8698887).
 
 ## Installation guide
 
